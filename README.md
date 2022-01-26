@@ -38,6 +38,12 @@ Détruire application
 
 WebApp -> Settings -> *scroll* -> Delete App
 
+### Addons
+
+```heroku addons```
+
+Ajout d'addon -> marketplace heroku -> associer avec l'app
+
 
 
 ### Erreurs :
