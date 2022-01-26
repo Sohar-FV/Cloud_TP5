@@ -6,33 +6,47 @@
 
 Créer projet avec Maven :
 
-```mvn archetype:generate -DarchetypeArtifactId=**jersey-heroku-webapp(a changer)** \ -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \ -DgroupId=**a changer** -DartifactId=**a changer** -Dpackage=**a changer** \ -DarchetypeVersion=2.32```
+```
+mvn archetype:generate -DarchetypeArtifactId=**jersey-heroku-webapp(a changer)** \ -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \ -DgroupId=**a changer** -DartifactId=**a changer** -Dpackage=**a changer** \ -DarchetypeVersion=2.32
+```
 
 Installer packages :
 
-```mvn clean package```
+```
+mvn clean package
+```
 
 Lancer serveur avec Jetty :
 
-```mvn jetty:run```
+```
+mvn jetty:run
+```
 
 ## Déploiement
 
 Connexion 
 
-```heroku create```
+```
+heroku create
+```
 
 Déploiement avec git 
 
-```git push heroku master```
+```
+git push heroku master
+```
 
 Vérif 
 
-```heroku ps```
+```
+heroku ps
+```
 
 Ouvrir site
 
-```heroku open```
+```
+heroku open
+```
 
 Détruire application
 
@@ -40,7 +54,9 @@ WebApp -> Settings -> *scroll* -> Delete App
 
 ### Addons
 
-```heroku addons```
+```
+heroku addons
+```
 
 Ajout d'addon -> marketplace heroku -> associer avec l'app
 
