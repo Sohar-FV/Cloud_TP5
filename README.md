@@ -15,3 +15,31 @@ Installer packages :
 Lancer serveur avec Jetty :
 
 ```mvn jetty:run```
+
+## Déploiement
+
+Connexion 
+
+```heroku create```
+
+Déploiement avec git 
+
+```git push heroku master```
+
+Vérif 
+
+```heroku ps```
+
+Ouvrir site
+
+```heroku open```
+
+Détruire application
+
+WebApp -> Settings -> *scroll* -> Delete App
+
+
+
+### Erreurs :
+
+UnsupportedClassVersionError -> Version de java -> passer en java 11 puis ```mvn clean package``` -> redéployer
