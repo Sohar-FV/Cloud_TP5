@@ -1,0 +1,1 @@
+web: java -cp target/classes:target/dependency/* tp5_cloud.heroku.Main
