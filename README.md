@@ -42,4 +42,4 @@ WebApp -> Settings -> *scroll* -> Delete App
 
 ### Erreurs :
 
-UnsupportedClassVersionError -> Version de java -> passer en java 11 puis ```mvn clean package``` -> redéployer
+UnsupportedClassVersionError -> Version de java -> passer en java 11 dans system.properties (racine du projet) puis ```mvn clean package``` -> redéployer
